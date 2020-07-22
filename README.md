@@ -1,7 +1,5 @@
 # Rolodex application
-
-
-
+A short term project I did a while back. Takes a csv, and converts data to json. Ignores invalid data.
 
 ## Requirements
 
