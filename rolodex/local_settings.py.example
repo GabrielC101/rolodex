@@ -1,0 +1,4 @@
+from pathlib import Path
+
+SOURCE_FILE_NAME = 'data.csv'
+DESTINATION_FILE_NAME = 'data.json'

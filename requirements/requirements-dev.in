@@ -1,0 +1,10 @@
+
+-r requirements.txt
+
+pytest
+pytest-isort
+mock
+mypy
+tox
+prospector
+ipython
