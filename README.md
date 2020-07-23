@@ -1,5 +1,9 @@
 # Rolodex application
-A short term project I did a while back. Takes a csv, and converts data to json. Ignores invalid data.
+A short term project I did a while back. Takes a csv, and converts data to json. Ignores invalid data. 
+Had a three day time limit. I've since tinkered with it. The purpose is to show of my skills (give a short time).
+In real life, this is over-engineered. Could be accomplished using pandas, pyspark, dask, or even just a single script.
+
+Alternatively, it could be turned into an ETL framework, in which case it is under-engineered.
 
 ## Requirements
 
