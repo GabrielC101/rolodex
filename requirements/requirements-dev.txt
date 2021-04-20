@@ -4,54 +4,140 @@
 #
 #    pip-compile --output-file=requirements/requirements-dev.txt requirements/requirements-dev.in
 #
-astroid==2.0.4            # via prospector, pylint, pylint-celery, pylint-flask, requirements-detector
-atomicwrites==1.3.0       # via pytest
-attrs==19.1.0             # via pytest
-backcall==0.1.0           # via ipython
+astroid==2.0.4
+    # via
+    #   prospector
+    #   pylint
+    #   pylint-celery
+    #   pylint-flask
+    #   requirements-detector
+atomicwrites==1.3.0
+    # via pytest
+attrs==19.1.0
+    # via pytest
+backcall==0.1.0
+    # via ipython
 click==7.0
-decorator==4.4.0          # via ipython, traitlets
-dodgy==0.1.9              # via prospector
-filelock==3.0.12          # via tox
-ipython-genutils==0.2.0   # via traitlets
+    # via -r requirements.txt
+decorator==4.4.0
+    # via
+    #   ipython
+    #   traitlets
+dodgy==0.1.9
+    # via prospector
+filelock==3.0.12
+    # via tox
+ipython-genutils==0.2.0
+    # via traitlets
 ipython==7.5.0
-isort==4.3.20             # via pylint, pytest-isort
-jedi==0.13.3              # via ipython
-lazy-object-proxy==1.4.1  # via astroid
+    # via -r requirements-dev.in
+isort==4.3.20
+    # via
+    #   pylint
+    #   pytest-isort
+jedi==0.13.3
+    # via ipython
+lazy-object-proxy==1.4.1
+    # via astroid
 marshmallow==2.19.2
-mccabe==0.6.1             # via prospector, pylint
+    # via -r requirements.txt
+mccabe==0.6.1
+    # via
+    #   prospector
+    #   pylint
 mock==3.0.5
-more-itertools==7.0.0     # via pytest
-mypy-extensions==0.4.1    # via mypy
+    # via -r requirements-dev.in
+more-itertools==7.0.0
+    # via pytest
+mypy-extensions==0.4.1
+    # via mypy
 mypy==0.701
-parso==0.4.0              # via jedi
-pep8-naming==0.4.1        # via prospector
-pexpect==4.7.0            # via ipython
-pickleshare==0.7.5        # via ipython
-pluggy==0.11.0            # via pytest, tox
-prompt-toolkit==2.0.9     # via ipython
+    # via -r requirements-dev.in
+parso==0.4.0
+    # via jedi
+pep8-naming==0.4.1
+    # via prospector
+pexpect==4.7.0
+    # via ipython
+pickleshare==0.7.5
+    # via ipython
+pluggy==0.11.0
+    # via
+    #   pytest
+    #   tox
+prompt-toolkit==2.0.9
+    # via ipython
 prospector==1.1.6.2
-ptyprocess==0.6.0         # via pexpect
-py==1.8.0                 # via pytest, tox
-pycodestyle==2.4.0        # via prospector
-pydocstyle==3.0.0         # via prospector
-pyflakes==1.6.0           # via prospector
-pygments==2.4.1           # via ipython
-pylint-celery==0.3        # via prospector
-pylint-django==2.0.2      # via prospector
-pylint-flask==0.5         # via prospector
-pylint-plugin-utils==0.5  # via prospector, pylint-celery, pylint-django, pylint-flask
-pylint==2.1.1             # via prospector, pylint-celery, pylint-django, pylint-flask, pylint-plugin-utils
+    # via -r requirements-dev.in
+ptyprocess==0.6.0
+    # via pexpect
+py==1.10.0
+    # via
+    #   pytest
+    #   tox
+pycodestyle==2.4.0
+    # via prospector
+pydocstyle==3.0.0
+    # via prospector
+pyflakes==1.6.0
+    # via prospector
+pygments==2.4.1
+    # via ipython
+pylint-celery==0.3
+    # via prospector
+pylint-django==2.0.2
+    # via prospector
+pylint-flask==0.5
+    # via prospector
+pylint-plugin-utils==0.5
+    # via
+    #   prospector
+    #   pylint-celery
+    #   pylint-django
+    #   pylint-flask
+pylint==2.1.1
+    # via
+    #   prospector
+    #   pylint-celery
+    #   pylint-django
+    #   pylint-flask
+    #   pylint-plugin-utils
 pytest-isort==0.3.1
+    # via -r requirements-dev.in
 pytest==4.5.0
-pyyaml==5.1               # via prospector
-requirements-detector==0.6  # via prospector
-setoptconf==0.2.0         # via prospector
-six==1.12.0               # via astroid, mock, prompt-toolkit, pydocstyle, pytest, tox, traitlets
-snowballstemmer==1.2.1    # via pydocstyle
-toml==0.10.0              # via tox
+    # via
+    #   -r requirements-dev.in
+    #   pytest-isort
+pyyaml==5.1
+    # via prospector
+requirements-detector==0.6
+    # via prospector
+setoptconf==0.2.0
+    # via prospector
+six==1.12.0
+    # via
+    #   astroid
+    #   mock
+    #   prompt-toolkit
+    #   pydocstyle
+    #   pytest
+    #   tox
+    #   traitlets
+snowballstemmer==1.2.1
+    # via pydocstyle
+toml==0.10.0
+    # via tox
 tox==3.12.1
-traitlets==4.3.2          # via ipython
-typed-ast==1.3.5          # via astroid, mypy
-virtualenv==16.6.0        # via tox
-wcwidth==0.1.7            # via prompt-toolkit, pytest
-wrapt==1.11.1             # via astroid
+    # via -r requirements-dev.in
+traitlets==4.3.2
+    # via ipython
+typed-ast==1.3.5
+    # via mypy
+virtualenv==16.6.0
+    # via tox
+wcwidth==0.1.7
+    # via
+    #   prompt-toolkit
+    #   pytest
+wrapt==1.11.1
+    # via astroid
